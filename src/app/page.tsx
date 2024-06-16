@@ -3,6 +3,8 @@ import BanknoteIcon from "@/components/icons/BankIcon"
 import BuildingIcon from "@/components/icons/BuildingIcon"
 import UserIcon from "@/components/icons/UserIcon"
 
+export const runtime = "edge"
+
 export default function LandingPage() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
